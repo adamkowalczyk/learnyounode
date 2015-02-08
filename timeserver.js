@@ -3,7 +3,7 @@ var net = require('net');
 
 
 function myDateString(d) {
-	// add leading zero to number under 10, from MSDN
+	// add leading zero to number under 10, from MDN
 	function pad(n){return n<10 ? '0'+n : n;}
 	return 	d.getFullYear()+'-'+
 			pad(d.getMonth()+1)+'-'+
